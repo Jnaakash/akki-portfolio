@@ -8,7 +8,7 @@ function Project() {
       <h2 className='projectTitle'>My Projects</h2>
       <span className='projectDesc'>Here are my Projects</span>
 
-      {/* ✅ Added Wrapper */}
+      {/* ✅ Added Wrapper */} 
       <div className='projectContainer'>
         <div className='project-item'>
           <img src={project} alt='Project' className='projectImg' />

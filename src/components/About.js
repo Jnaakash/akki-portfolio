@@ -6,7 +6,7 @@ import JS from "../Assets/javascript.svg"
 import R from "../Assets/react.svg"
 
 function About() {
-    return (
+    return ( 
         <section id="about">
             <span className='aboutTitle'>What I Know</span>
             <span className='aboutDesc'>

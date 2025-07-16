@@ -17,15 +17,15 @@
 
 .socialTitle{
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     padding: 3rem;
-    margin-bottom: 0.8rem;
+     margin-bottom: 0.8rem;
 }
 
 .socialDesc{
     padding: 0.5rem;
     margin-bottom: 3rem;
-    font-size: medium;
+    font-size: large;
     font-weight: 300;
 }
 
@@ -33,19 +33,26 @@
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+   
 }
 
 .socialImg{
-    object-fit: cover;
-    width: 25%;
-    min-width: 7rem;
-    margin: 0 auto;
-    padding: 0.5rem;
-}
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .socialImg:hover{
     transition: all 0.2s;
     transform: scale(1.1);
+    box-shadow:  0 8px 20px rgba(0, 119, 181, 0.3);
 }
 
 
@@ -58,7 +65,7 @@
 
 .contactDesc{
     font-weight: 300;
-    font-size: 1rem;
+    font-size: large;
     max-width: 50rem;
     padding: 0 2rem;
 }

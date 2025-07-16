@@ -1,6 +1,6 @@
 #project {
   min-height: calc(100vh - 4rem);
-  overflow: hidden;
+ /* overflow: hidden; */
   width: 100%;
   max-width: 60rem;
   display: flex;
@@ -11,6 +11,12 @@
   text-align: center;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -135,4 +141,4 @@
     .item-details>P2{
         font-size: 3.5vw;
     }
-} 
+}  

@@ -30,7 +30,7 @@ function Intro() {
                             Hire Me
                         </button>
                     </a>
-                </div>
+                </div> 
 
                 {/* React Logo */}
                 <img src={reactLogo} className="logo2" alt="React Logo"/>
