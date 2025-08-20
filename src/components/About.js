@@ -4,6 +4,8 @@ import HTML from "../Assets/HTML5_Badge.svg"
 import CSS from "../Assets/css-3.svg"
 import JS from "../Assets/javascript.svg"
 import R from "../Assets/react.svg"
+import GD from "../Assets/GD.png"
+
 
 function About() {
     return ( 
@@ -12,7 +14,7 @@ function About() {
             <span className='aboutDesc'>
                 I am a skilled and passionate web designer with experience in creating visually 
                 appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. 
-                I am proficient in HTML, CSS, and JavaScript.
+                I am proficient in HTML, CSS, JavaScript, React and  Graphic Designing tools.
             </span>
 
             <div className='aboutBars'>
@@ -61,6 +63,17 @@ function About() {
                     </a>
                 </div>
 
+                 <div className='aboutBar'>
+        <a href='https://en.wikipedia.org/wiki/Graphic_design' target='_blank' rel='noopener noreferrer' className='aboutBarLink'>
+            <img src={GD} alt='Graphic Design' className='aboutBarImg' />
+            <div className='aboutBarText'>
+                <h2>Graphic Design</h2>
+                <p>Designing Visual Content</p>
+            </div>
+        </a>
+    </div>
+
+                
 
             </div>
         </section>
