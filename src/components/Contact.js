@@ -69,7 +69,7 @@ function Contact() {
 
                 <form className='contactForm'  ref={form} onSubmit={sendEmail}>
                     <input type='text' className='name' placeholder='Your Name' name='from_name' required/>
-                      <input type='email' className='email' placeholder='Your Email' name='your_email' required/>
+                      <input type='email' className='email' placeholder='Your Email Address' name='your_email' required/>
                       <textarea className='msg' name='message' rows="5" placeholder='Your Message' required></textarea>
                       <button type='submit' value="Send" className='submitBtn' onClick={() =>{alert("Form Submitted!!")}}>Submit</button>
                 </form>
